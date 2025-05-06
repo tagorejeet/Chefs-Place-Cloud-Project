@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.5.1",
+    "@ibm-cloud/cloudant": "^0.12.3",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.1",
+    "ibmcloud-appid": "^7.0.0",
+    "ibmcloud-appid-js": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "mongoose": "^8.4.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0",
+    "stripe": "^16.1.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.18.1",
+    "@types/passport": "^1.0.17"
+  }
+}
